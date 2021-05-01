@@ -1,7 +1,7 @@
 import React from 'react';
 import { GitHub, Linkedin, Instagram, Twitter, Youtube } from 'react-bootstrap-icons';
 
-export default function Footer() {
+const Footer = () => {
     return (
         <div className="row">
             <div className="footer">
@@ -43,3 +43,5 @@ export default function Footer() {
         // </div>
     );
 }
+
+export default Footer;
