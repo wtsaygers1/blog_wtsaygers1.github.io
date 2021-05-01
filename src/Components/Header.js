@@ -1,4 +1,5 @@
-import React from 'react'
+import {Link} from 'react-router-dom'
+
 
 export default function Header() {
     return (
@@ -11,19 +12,19 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">About</a>
+                            <Link className="nav-link active" aria-current="page" href="#">About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Portfolio</a>
+                            <Link className="nav-link" href="#">Portfolio</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 More Goods</a>
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a className="dropdown-item" href="#">Mission</a></li>
-                                <li><a className="dropdown-item" href="#"></a>Core Values</li>
+                                <li><Link className="dropdown-item" href="#">Mission</Link></li>
+                                <li><Link className="dropdown-item" href="#"></Link>Core Values</li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Blog</a></li>
+                                <li><Link className="dropdown-item" href="#">Blog</Link></li>
                             </ul>
                         </li>
                         {/* <li className="nav-item">
@@ -31,7 +32,7 @@ export default function Header() {
               </li> */}
                     </ul>
                     <form className="d-flex">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <input className="form-control me-2" type="search" placeholder="Not Functional" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
