@@ -13,20 +13,19 @@ export default function Footer() {
                             className="github">
                             <GitHub />
                         </a> */}
-                        <i class="bi bi-github"></i>
                         <a href="https://www.linkedin.com/in/walter-saygers-2928b2a8/"
                             target="_blank"
                             rel="noreferrer"
                             className="linkedin">
                             <Linkedin />
                         </a>
-                        <a href="https://www.instagram.com/"
+                        <a href="https://www.instagram.com/wallysenders/"
                             target="_blank"
                             rel="noreferrer"
                             className="insta">
                             <Instagram />
                         </a>
-                        <a href="https://twitter.com/"
+                        <a href="https://twitter.com/wallysyndrs"
                             target="_blank"
                             rel="noreferrer"
                             className="twitter">
