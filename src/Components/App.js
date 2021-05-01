@@ -1,45 +1,18 @@
-import React, { BrowserRouter as Router } from 'react';
-import './App.css';
-import Header from './Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home'
+import '../App.css'
 
-function App() {
-
-  // let pages = [
-  //   { readableName: "Home", url: "home" },
-  //   { readableName: "About", url: "about" },
-  //   { readableName: "Portfolio", url: "portfolio" },
-  //   { readableName: "Mission", url: "mission" },
-  //   { readableName: "CoreValues", url: "corevalues" },
-  //   { readableName: "Blog", url: "blog"}
-  // ];
-
-  // const [currentPage, setCurrentPage] = useState(0)
-
-  // // component did update
-  // const setPage = (newPageNum) => {
-  //   setCurrentPage(newPageNum)
-  //     window.localStorage.setItem('currentPage', JSON.stringify(newPageNum))
-  // }
-
-  // // component did mount
-  // useEffect(() => {
-  //   let localStoragePage = window.localStorage.getItem('currentPage')
-  //   if (localStoragePage !== currentPage) {
-  //     setCurrentPage(JSON.parse(localStoragePage))
-  //   }
-  // }, [currentPage])
-  
-  
+function App() {  
   return (
-    <div className="App">
     <Router>
-      <Header 
-        // pages={pages}
-        // currentPage={currentPage}
-        // setPage={setPage}
-      />
-      </Router>
-    </div>
+      <div className='App'>
+      <Switch>
+        <Route path='/'>
+          <Home />
+        </Route>
+      </Switch>
+      </div>
+    </Router>
   );
 }
 
