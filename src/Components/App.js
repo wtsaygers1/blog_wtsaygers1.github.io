@@ -5,7 +5,8 @@ import Nav from './Nav'
 import Footer from './Footer'
 import '../App.css'
 
-export default function App() {
+export default function App(){
+  
   return (
     <Router>
       <div className='App'>
@@ -20,6 +21,6 @@ export default function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>  
-  ); 
+    </Router> 
+  )
 }

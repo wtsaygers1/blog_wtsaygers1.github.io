@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 
 
-const Nav = () => {
+export default function Nav(){
 
     const [open, setOpen] = useState(false);
     const [screenWidth, setScreenWidth] = useState(0);
@@ -71,5 +71,3 @@ const Nav = () => {
         </nav>
     )
 }
-
-export default Nav;

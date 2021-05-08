@@ -1,16 +1,16 @@
 import React from 'react';
 import { GitHub, Linkedin, Instagram, Twitter, Youtube } from 'react-bootstrap-icons';
 
-const Footer = () => {
+export default function Footer() {
     return (
         <div className="row">
             <div className="footer">
-                {/* <div className="card">
-                    <div className="card-body social"> */}
+                <div className="card">
+                    <div className="card-body social">
                         {/* <a href="https://github.com/wtsaygers1"
                             target="_blank"
                             rel="noreferrer"
-                            className="github">
+                            className="GitHub">
                             <GitHub />
                         </a> */}
                         <a href="https://www.linkedin.com/in/walter-saygers-2928b2a8/"
@@ -39,9 +39,7 @@ const Footer = () => {
                         </a> */}
                     </div>
                 </div>
-        //     </div>
-        // </div>
+            </div>
+        </div>
     );
 }
-
-export default Footer;
