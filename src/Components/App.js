@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Nav from './Nav'
+import Portfolio from './Portfolio'
 import Footer from './Footer'
 import '../App.css'
 
-export default function App(){
-  
+export default function App() {
   return (
-    <Router>
-      <div className='App'>
+    <div className='App'>
+      <Router>
         <Nav />
         <Switch>
           <Route exact path='/'>
@@ -18,9 +18,12 @@ export default function App(){
           <Route path='/about'>
             <About />
           </Route>
+          <Route path='/portfolio'>
+            <Portfolio />
+          </Route>
         </Switch>
         <Footer />
-      </div>
-    </Router> 
-  )
+      </Router>
+    </div>
+  );
 }

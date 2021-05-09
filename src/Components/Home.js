@@ -6,8 +6,8 @@ export default function Home(){
             <div className='title'>
                 <h1>
                     <p>Alright...Alright...Alright...</p>
-                    <p>I Am Walt Saygers</p>
-                    <p>Full Stack Web Developer</p>
+                    <p>I Am Walter Saygers</p>
+                    <p>Web Developer</p>
                 </h1>
                 <Link to="About">
                     <button>Learn More</button>

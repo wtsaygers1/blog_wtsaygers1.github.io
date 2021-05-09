@@ -7,8 +7,12 @@ import React from 'react'
 
 export default function Portfolio() {
     return (
-        <div>
-            
+        <div className="container">
+            <div className="row">
+                <div className="col text-center">
+                <img src="under_construct.jpeg" className="img-fluid" alt="under construction" />
+                </div>
+            </div>
         </div>
     )
 }
