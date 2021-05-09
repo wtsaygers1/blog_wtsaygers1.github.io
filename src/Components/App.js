@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
+import Skills from './Skills'
 import Nav from './Nav'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
@@ -17,6 +18,9 @@ export default function App() {
           </Route>
           <Route path='/about'>
             <About />
+          </Route>
+          <Route path='/skills'>
+            <Skills />
           </Route>
           <Route path='/portfolio'>
             <Portfolio />
