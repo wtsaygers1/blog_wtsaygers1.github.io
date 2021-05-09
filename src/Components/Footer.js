@@ -1,5 +1,5 @@
 import React from 'react';
-import { GitHub, Linkedin, Instagram, Twitter, Youtube } from 'react-bootstrap-icons';
+import { Linkedin, Instagram, Twitter } from 'react-bootstrap-icons';
 
 export default function Footer() {
     return (

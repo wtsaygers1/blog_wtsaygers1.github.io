@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Nav(){
 
     const [open, setOpen] = useState(false);
-    const [screenWidth, setScreenWidth] = useState(0);
+    // const [screenWidth, setScreenWidth] = useState(0);
 
     const trackScreenWidth = () => {
         const width = window.innerWidth;

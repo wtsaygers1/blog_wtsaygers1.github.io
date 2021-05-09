@@ -4,6 +4,7 @@ import About from './About'
 import Skills from './Skills'
 import Nav from './Nav'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
 import Footer from './Footer'
 import '../App.css'
 
@@ -24,6 +25,9 @@ export default function App() {
           </Route>
           <Route path='/portfolio'>
             <Portfolio />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
           </Route>
         </Switch>
         <Footer />

@@ -86,7 +86,7 @@ footer {
     margin-bottom: 20px;
 }
 
- .navbar {
+.navbar {
     height: 100%;
 }
 
@@ -102,19 +102,19 @@ footer {
     display: flex;
     max-width: 130px;
     height: 100%;
-  }
+}
   
-  .logo img {
+.logo img {
     width: 100%;
     margin-left: -18px;
-  }
+}
   
-   .list-wrapper {
+.list-wrapper {
     display: flex;
     align-items: center;
-  }
+}
 
-  .list-wrapper img {
+.list-wrapper img {
     opacity: 1;
     z-index: 4;
     width: 40px;
@@ -124,9 +124,9 @@ footer {
     border-radius: 999px;
     background-color: #dddddd;
     transition: all 0.5s ease-in-out;
-  }
+}
   
-  .list-wrapper ul {
+.list-wrapper ul {
     top: 0;
     left: -100vw;
     z-index: 3;
@@ -137,96 +137,117 @@ footer {
     position: absolute;
     transition: all 0.5s ease-in-out;
     background-color: rgb(0, 0, 0, 0.8);
-  }
+}
   
-  .list-wrapper ul li {
+.list-wrapper ul li {
     list-style: none;
     margin-bottom: 15px;
-  }
+}
   
-  .list-wrapper ul li a {
+.list-wrapper ul li a {
     display: block;
     font-size: 24px;
     padding: 10px 0;
     color: #dddddd;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-  }
+}
   
-  .list-wrapper ul li a:hover {
+.list-wrapper ul li a:hover {
     color: #000000;
     background-color: #dddddd;
-  }
+}
   
-  @media (min-width: 800px) {
+@media (min-width: 800px) {
     .list-wrapper img {
       display: none;
     }
-  }
+}
   
-    .list-wrapper ul {
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      text-align: left;
-      position: relative;
-      background-color: transparent;
-    }
+.list-wrapper ul {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    background-color: transparent;
+}
   
-    .list-wrapper ul li {
-      display: inline-block;
-      margin-bottom: 0;
-    }
+.list-wrapper ul li {
+    display: inline-block;
+    margin-bottom: 0;
+}
   
-    .list-wrapper ul li:not(:last-child) {
-      margin-right: 10px;
-    }
+.list-wrapper ul li:not(:last-child) {
+    margin-right: 10px;
+}
   
-    .list-wrapper ul li a {
-      padding: 5px;
-      color: #000000;
-    }
+.list-wrapper ul li a {
+    padding: 5px;
+    color: #000000;
+}
   
-    .list-wrapper ul li a:hover {
-      padding: 5px;
-      color: #333333;
-      transform: scale(0.8);
-      background: transparent;
-    }
+.list-wrapper ul li a:hover {
+    padding: 5px;
+    color: #333333;
+    transform: scale(0.8);
+    background: transparent;
+}
 
-    .skills {
-        flex-grow: 1;
-    }
+.skills {
+    flex-grow: 1;
+}
 
-    .skills h1 {
-        margin-bottom: 20px;
-    }
+.skills h1 {
+    margin-bottom: 20px;
+}
 
+.content {
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content div {
+    margin-bottom: 25px;
+}
+
+.content strong {
+    line-height: 25px;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 800px) {
     .content {
-        display: grid;
-        font-size: 24px;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .content div {
-        margin-bottom: 25px;
-    }
-
-    .content strong {
-        line-height: 25px;
-        padding-bottom: 15px;
-        display: block;
-    }
-
-    .content li {
-        margin-bottom: 10px;
-    }
-
-    @media (min-width: 800px) {
-        .content {
             grid-template-columns: 1fr 1fr 1fr;
         }
-    }
+}
+
+.contact {
+    flex-grow: 1;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact iframe {
+    border: 0;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+
 
 
 
