@@ -3,6 +3,7 @@ import Home from './Home'
 import About from './About'
 import Skills from './Skills'
 import Nav from './Nav'
+import BlogPage from './BlogPage'
 import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Footer from './Footer'
@@ -22,6 +23,9 @@ export default function App() {
           </Route>
           <Route path='/skills'>
             <Skills />
+          </Route>
+          <Route path='/blog'>
+            <BlogPage />
           </Route>
           <Route path='/portfolio'>
             <Portfolio />

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className="row">
             <div className="footer">
-                <div className="card">
+                <div className="card fixed-bottom">
                     <div className="card-body social">
                         {/* <a href="https://github.com/wtsaygers1"
                             target="_blank"
