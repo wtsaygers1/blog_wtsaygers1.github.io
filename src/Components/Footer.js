@@ -3,9 +3,9 @@ import { Linkedin, Instagram, Twitter } from 'react-bootstrap-icons';
 
 export default function Footer() {
     return (
-        <div className="row">
-            <div className="footer">
-                <div className="card fixed-bottom">
+        <div className="container">
+            <div className="row">
+                <div className="col">
                     <div className="card-body social">
                         {/* <a href="https://github.com/wtsaygers1"
                             target="_blank"
