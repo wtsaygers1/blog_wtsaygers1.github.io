@@ -1,10 +1,8 @@
 import React from 'react'
-import BlogNav from "./BlogNav"
 
 export default function FullStack() {
     return (
-        <>
-        <BlogNav />
+       
         <div className="container">
             <div className="row">
                 <div className="col">
@@ -53,6 +51,6 @@ export default function FullStack() {
                 </div>
             </div>
         </div>
-        </>
+        
     )
 }

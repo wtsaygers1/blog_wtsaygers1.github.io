@@ -8,10 +8,7 @@ import Portfolio from './Portfolio'
 import Contact from './Contact'
 import Footer from './Footer'
 import '../App.css'
-import PreWork from './PreWork'
-import FrontEnd from './FrontEnd'
-import BackEnd from './BackEnd'
-import FullStack from './FullStack'
+
 
 export default function App() {
   return (
@@ -34,25 +31,9 @@ export default function App() {
           <Route path='/contact'>
             <Contact />
           </Route>
-
-
-          <Route exact path='/blog'>
+          <Route path='/blog'>
             <BlogPage />
-          </Route>
-
-
-          <Route path='/blog/prework'>
-            <PreWork />
-          </Route>
-          <Route path='/blog/frontend'>
-            <FrontEnd />
-          </Route>
-          <Route path='/blog/backend'>
-            <BackEnd />
-          </Route>
-          <Route path='/blog/fullstack'>
-            <FullStack />
-          </Route>
+          </Route>         
         </Switch>
         <Footer />
       </Router>

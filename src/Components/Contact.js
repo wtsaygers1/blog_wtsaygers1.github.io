@@ -17,7 +17,7 @@ export default function Contact() {
             <p>businessinquries4walter@gmail.com</p>
 
             <h4>GitHub</h4>
-            <p><a href="https://github.com/wtsaygers1" target="_blank" rel="noreferrer">Profile</a></p>
+            <p><a href="https://github.com/wtsaygers1" target="_blank" rel="noreferrer">https://github.com/wtsaygers1</a></p>
 
             <h4>Address</h4>
             <p>Awesome Inc<br />
